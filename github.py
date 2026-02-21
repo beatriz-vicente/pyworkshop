@@ -28,7 +28,7 @@ def repos_with_most_stars(languages, sort="stars", order="desc"):
 
 
 if __name__ == "__main__":
-    languages = ["python", "javascript", "ruby"]
+    languages = ["python", "javascript", "go"]
     results = repos_with_most_stars(languages)
 
     for result in results:
